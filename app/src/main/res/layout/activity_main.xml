@@ -42,6 +42,7 @@
         android:textSize="18sp" />
 
     <Button
+        android:onClick="nuevaCita"
         android:text="Nueva Cita"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

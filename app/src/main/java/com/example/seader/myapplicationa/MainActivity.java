@@ -28,13 +28,10 @@ public class MainActivity extends AppCompatActivity {
         nuevaCitaButton = (Button) findViewById(R.id.nuevaCitaButton);
 
 
-        nuevaCitaButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.d(TAG, "me tocaste");
-
-            }
-        });
+    }
+    //metodo para click listener con onclick en xml + esto
+    public void nuevaCita(View view){
+        Log.d(TAG, "me tocaste bff");
 
     }
 }
